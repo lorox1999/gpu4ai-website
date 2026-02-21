@@ -122,6 +122,31 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Contact Section */}
+      <section id="contact" className="py-20 bg-gray-800">
+        <div className="container mx-auto px-4">
+          <h2 className="text-4xl font-bold text-center mb-4">Get in Touch</h2>
+          <p className="text-gray-400 text-center mb-8 max-w-2xl mx-auto">
+            Have questions? Need a custom solution? We'd love to hear from you.
+          </p>
+          <div className="max-w-md mx-auto text-center">
+            <div className="bg-gray-700 rounded-xl p-8">
+              <div className="text-4xl mb-4">📧</div>
+              <h3 className="text-xl font-semibold mb-2">Email Us</h3>
+              <a 
+                href="mailto:hello@gpu4ai.vip" 
+                className="text-cyan-400 text-lg hover:text-cyan-300 transition"
+              >
+                hello@gpu4ai.vip
+              </a>
+              <p className="text-gray-400 mt-4 text-sm">
+                We typically respond within 24 hours
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="py-8 bg-gray-900 border-t border-gray-700">
         <div className="container mx-auto px-4 text-center text-gray-400">
