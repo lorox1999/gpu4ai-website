@@ -111,7 +111,7 @@ export default function Home() {
             <div className="text-center">
               <div className="text-4xl mb-4">🌍</div>
               <h3 className="text-xl font-semibold mb-2">Global Access</h3>
-              <p className="text-gray-400">Pay with Stripe/PayPal. No Chinese payment methods needed.</p>
+              <p className="text-gray-400">Pay with Stripe/PayPal. Global payment methods supported.</p>
             </div>
             <div className="text-center">
               <div className="text-4xl mb-4">🔧</div>
